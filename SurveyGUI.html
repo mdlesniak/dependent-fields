@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <title>SuperAwesome Survey</title>
+        
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet" />-->
+        <script type="text/javascript" src="lib/jquery.js"></script>
+        <script type="text/javascript" src="src/SurveyView.js"></script>
+        <script type="text/javascript">
+            $document.ready(function() {
+            var view = new SurveyView();
+            view.init($('.survey'));
+            });
+        </script>
+    </head>
+    
+    <body class="survey">
+        <h1><center>SuperAwesome Chocolate Bar Survey</center></h1>
+        <form method="post" action="http://something/survey.data">
+            <div>
+                <h3>Do you eat SuperAwesome Chocolate Bars?</h3>
+                <input type="RADIO" name="eats-superawesome" value="1">Yes
+                <input type="RADIO" name="eats-superawesome" value="2">No
+            </div>
+
+            <div id="consuming-details">
+
+                <div id="amount-consumed" name="amount-consumed">
+                    <h3>How many do you eat per week?</h3>
+                    <input type="text" name="amount-consumed-response">
+                    <p hidden="true">
+                        Thanks for being a great customer!
+                    </p>
+                </div>
+            
+                <div id="years-consumed" name="years-consumed">
+                    <h3>For how many years have you been eating SuperAwesome Chocolate Bars?</h3>
+                    <input type="text" name="years-consumed">
+                    <p hidden="true">
+                        Thanks for being so loyal!
+                    </p>
+
+                </div>
+            
+                <div id="cut-back" name="cut-back">
+                    <h3>Will you try to cut back on your SuperAwesome Chocolate Bar consumption?</h3>
+                    <input type="RADIO" name="will-cut-back" value="yes">Yes
+                    <input type="RADIO" name="will-cut-back" value="no">No
+    
+                    <div id="why-cut-back" name="why-cut-back" hidden="true">
+                        <h3>Why?</h3>
+                        <select>
+                            <option SELECTED VALUE="">(please choose a reason)</option>
+                            <option VALUE="1">Health reasons</option>
+                            <option VALUE="2">They taste bad now</option>
+                            <option VALUE="3">Moving to Slugworth Chocolates</option>
+                            <option VALUE="4">Alien abduction has altered my state of being</option>
+                            <option VALUE="5">I lied; I don't eat your chocolate</option>
+                        </select>
+                    </div>
+                
+                </div>
+            
+            </div>
+        </form>
+    </body>    
+</html>
