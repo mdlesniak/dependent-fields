@@ -1,0 +1,40 @@
+Dependent fields
+
+This exercise will help you understand how to test drive in JavaScript.
+You should be able to come away with a better understanding of
+how to set up tests for requirements using Jasmine, and should
+be able to use jQuery to look for and manipulate DOM elements.
+
+A client wants a survey made, and you are responsible for the UI.
+This survey is web based and uses jQuery for other DOM responsiblities,
+so you are able to utilize that library.
+
+The client is interested in how much of their product is used by
+the person taking the survey. So they have several questions to be
+asked, and some of those questions will prompt other questions to
+show.
+
+The client has these questions and fields to collect:
+Do you eat SuperAwesome Chocolate Bars?
+(user can choose "Yes" or "No")
+  If "No", hide the ""
+  If "Yes"
+    How many do you eat per week?
+	(user can type any number)
+	  If number > 5, then show a "Thanks for being a great customer!" message
+    For how many years have you been eating SuperAwesome Chocolate Bars?
+    (user can type any number)
+      If number > 3, then show a "Thanks for being so loyal!" message
+    Will you try to cut back on your SuperAwesome Chocolate Bar consumption?
+    (user can choose "Yes" or "No")
+      If "No", hide the "Why" question
+      If "Yes"
+      Why?
+      (user can choose any of the following)
+        Health reasons
+        They taste bad now
+        Moving to Slugworth Chocolates
+        Alien abduction has altered my state of being
+        I lied; I don't eat your chocolate
+
+Form validation is not necessary at this time.
