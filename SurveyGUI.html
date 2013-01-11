@@ -5,11 +5,14 @@
         
         <!--<link href="css/bootstrap.min.css" rel="stylesheet" />-->
         <script type="text/javascript" src="lib/jquery.js"></script>
-        <script type="text/javascript" src="src/SurveyView.js"></script>
+        <script type="text/javascript" src="src/main/SurveyView.js"></script>
         <script type="text/javascript">
             $document.ready(function() {
-            var view = new SurveyView();
-            view.init($('.survey'));
+                var view = new SurveyView();
+                view.init($('.survey'));
+                $("button").click(function(){
+                    $("div").hide();
+                });
             });
         </script>
     </head>
@@ -17,6 +20,8 @@
     <body>
     <div class="survey">
         <h1><center>SuperAwesome Chocolate Bar Survey</center></h1>
+            <button>Click me</button>
+ 
         <form method="post" action="http://something/survey.data">
             <div>
                 <h3>Do you eat SuperAwesome Chocolate Bars?</h3>
