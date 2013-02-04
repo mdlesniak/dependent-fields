@@ -1,10 +1,14 @@
 var SurveyView = function() {
 };
 
-SurveyView.prototype.init = function(s) {
-    var wrapper = $(s);
-    
-    $("#consuming-details").hide();
+SurveyView.prototype.init = function() {
+//    var wrapper = $();
+
+//    $("button").click(function() {
+//        $("div").hide();
+//    });
+
+//    $("#consuming-details").hide();
 //    var display = wrapper.find('.display');
 //    
 //    wrapper.find('button').click(function(ev) {
