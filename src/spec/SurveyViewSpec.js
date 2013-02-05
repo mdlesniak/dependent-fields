@@ -39,6 +39,12 @@ describe('Survey view', function() {
         expect(consumingDetails.is(":visible")).toBe(false);
     });
 
+    it('thanks a great customer if eat more than 5 per week', function() {
+        $('input[name="amount-consumed-response"]').ap
+
+
+    });
+
 //    it('adds to the display when buttons are pressed', function() {
 //	    container.find('#btn1').click();
 //	    var displayText = container.find('.display').val();

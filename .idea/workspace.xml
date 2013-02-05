@@ -36,25 +36,25 @@
       <file leaf-file-name="SurveyGUI.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SurveyGUI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="70" selection-start="1048" selection-end="1048" vertical-scroll-proportion="-7.5416665">
+            <state line="33" column="69" selection-start="1287" selection-end="1311" vertical-scroll-proportion="-5.6666665">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurveyViewSpec.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SurveyViewSpec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spec/SurveyViewSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="58" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+            <state line="42" column="54" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.7273919">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurveyView.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SurveyView.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/SurveyView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.806701">
+            <state line="5" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,9 +73,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/main/SurveyView.js" />
         <option value="$PROJECT_DIR$/SurveyGUI.html" />
         <option value="$PROJECT_DIR$/src/spec/SurveyViewSpec.js" />
-        <option value="$PROJECT_DIR$/src/main/SurveyView.js" />
       </list>
     </option>
   </component>
@@ -310,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SurveyGUI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="70" selection-start="1048" selection-end="1048" vertical-scroll-proportion="-7.5416665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dep_fields.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -324,16 +317,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spec/SurveyViewSpec.js">
+    <entry file="file://$PROJECT_DIR$/src/main/SurveyView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="58" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/SurveyView.js">
+    <entry file="file://$PROJECT_DIR$/SurveyGUI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.806701">
+        <state line="33" column="69" selection-start="1287" selection-end="1311" vertical-scroll-proportion="-5.6666665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spec/SurveyViewSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="54" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.7273919">
           <folding />
         </state>
       </provider>

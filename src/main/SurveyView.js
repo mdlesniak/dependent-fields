@@ -2,12 +2,7 @@ var SurveyView = function() {
 };
 
 SurveyView.prototype.init = function() {
-    $("input[name='eats-superawesome']",$('#eats-superawesome')).change(
-        function(e)
-        {
-            toggleConsumptionDetails.call(this);
-        }
-    );
+    createResponderForEatsQuestion();
 
 //    var wrapper = $();
 
@@ -42,6 +37,14 @@ SurveyView.prototype.init = function() {
 };
 
 window.SurveyView = SurveyView;
+
+function createResponderForEatsQuestion() {
+    $("input[name='eats-superawesome']", $('#eats-superawesome')).change(
+        function () {
+            toggleConsumptionDetails.call(this);
+        }
+    );
+}
 
 function toggleConsumptionDetails() {
     if ($(this).val() === 'yes') {
