@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02f9421-0790-4eed-bf5b-f59c58b3376a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SurveyGUI.html" afterPath="$PROJECT_DIR$/SurveyGUI.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/SurveyView.js" afterPath="$PROJECT_DIR$/src/main/SurveyView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spec/SurveyViewSpec.js" afterPath="$PROJECT_DIR$/src/spec/SurveyViewSpec.js" />
@@ -27,7 +28,7 @@
       <file leaf-file-name="dep_fields.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dep_fields.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="35" column="18" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -36,25 +37,25 @@
       <file leaf-file-name="SurveyGUI.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SurveyGUI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="69" selection-start="1287" selection-end="1311" vertical-scroll-proportion="-5.6666665">
+            <state line="15" column="7" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SurveyViewSpec.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/spec/SurveyViewSpec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="54" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.7273919">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SurveyView.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SurveyView.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/SurveyView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+            <state line="5" column="9" selection-start="121" selection-end="121" vertical-scroll-proportion="0.01965924">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SurveyViewSpec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spec/SurveyViewSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="49" selection-start="4785" selection-end="4785" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,17 +74,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/SurveyView.js" />
-        <option value="$PROJECT_DIR$/SurveyGUI.html" />
         <option value="$PROJECT_DIR$/src/spec/SurveyViewSpec.js" />
+        <option value="$PROJECT_DIR$/SurveyGUI.html" />
+        <option value="$PROJECT_DIR$/src/main/SurveyView.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="63" />
-    <option name="y" value="28" />
+    <option name="y" value="22" />
     <option name="width" value="1477" />
-    <option name="height" value="924" />
+    <option name="height" value="911" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -201,13 +202,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="28" width="1477" height="924" extended-state="0" />
-    <editor active="true" />
+    <frame x="63" y="22" width="1477" height="911" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16643742" sideWeight="0.996264" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16643742" sideWeight="0.9987374" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -275,6 +276,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dep_fields.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="18" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurveyGUI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SurveyView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spec/SurveyViewSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="49" selection-start="4785" selection-end="4785" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SurveyGUI.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="25" selection-start="1789" selection-end="1789" vertical-scroll-proportion="0.0">
@@ -312,28 +341,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dep_fields.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/SurveyView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+        <state line="35" column="18" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SurveyGUI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="69" selection-start="1287" selection-end="1311" vertical-scroll-proportion="-5.6666665">
+        <state line="15" column="7" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SurveyView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="121" selection-end="121" vertical-scroll-proportion="0.01965924">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spec/SurveyViewSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="54" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.7273919">
+        <state line="101" column="49" selection-start="4785" selection-end="4785" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

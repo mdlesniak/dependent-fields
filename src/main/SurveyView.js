@@ -1,56 +1,81 @@
-var SurveyView = function() {
-};
+(function (root, $) {
+    var SurveyView = function() {
+    };
 
-SurveyView.prototype.init = function() {
-    createResponderForEatsQuestion();
-
-//    var wrapper = $();
-
-//    $("button").click(function() {
-//        $("div").hide();
-//    });
-
-//    $("#consuming-details").hide();
-//    var display = wrapper.find('.display');
-//    
-//    wrapper.find('button').click(function(ev) {
-//	    var buttonText = $(ev.currentTarget).text();
-//	    var oldValue = display.val();
-//	    var newValue = oldValue;
-//	    if (oldValue.indexOf('.') === -1 || buttonText !== '.') {
-//	        newValue = oldValue + buttonText;
-//	    }
-//	    while (newValue.length > 1 && newValue.indexOf('0') == 0) {
-//    	    if (newValue.length > 2 || buttonText !== '.') {
-//		    newValue = newValue.substring(1);
-//	        } else {
-//		        break;
-//	        }
-//	    }
-//	    display.val(newValue);
-//    });
-//    
-//    wrapper.find('button.clear').click(function(ev) {
-//	    display.val('0');
-//    });
-
-};
-
-window.SurveyView = SurveyView;
-
-function createResponderForEatsQuestion() {
-    $("input[name='eats-superawesome']", $('#eats-superawesome')).change(
-        function () {
-            toggleConsumptionDetails.call(this);
-        }
-    );
-}
-
-function toggleConsumptionDetails() {
-    if ($(this).val() === 'yes') {
-        $(".consuming-details").show();
-    } else {
-        $(".consuming-details").hide();
+    function createResponderForEatsQuestion() {
+        $("#eats-superawesome [name='eats-superawesome']").change(
+            function () {
+                toggleConsumptionDetails.call(this);
+            }
+        );
     }
-}
+
+    function toggleConsumptionDetails() {
+        if ($(this).val() === 'yes') {
+            $(".consuming-details").show();
+        } else {
+            $(".consuming-details").hide();
+        }
+    }
+
+    function createResponderForAmountConsumed() {
+        $("input[name='amount-consumed-response']").change(
+            function () {
+                showGoodCustomerMessage.call(this);
+            }
+        );
+    }
+
+    function showGoodCustomerMessage() {
+        if ($(this).val() > 5) {
+            $('#amount-consumed p').show();
+        } else {
+            $('#amount-consumed p').hide();
+        }
+    }
+
+    function createResponderForYearsConsumed() {
+        $("input[name='years-consumed-response']").change(
+            function () {
+                showLoyalCustomerMessage.call(this);
+            }
+        );
+    }
+
+    function showLoyalCustomerMessage() {
+        if ($(this).val() > 3) {
+            $('#years-consumed p').show();
+        } else {
+            $('#years-consumed p').hide();
+        }
+    }
+
+    function createResponderForCuttingBack() {
+        $("input[name='will-cut-back']").change(
+            function () {
+                showWhyCutBackDetails.call(this);
+            }
+        );
+    }
+
+    function showWhyCutBackDetails() {
+        if ($(this).val() === 'yes') {
+            $(".why-cut-back").show();
+        } else {
+            $(".why-cut-back").hide();
+        }
+    }
+
+    SurveyView.prototype.init = function() {
+        createResponderForEatsQuestion();
+        createResponderForAmountConsumed();
+        createResponderForCuttingBack();
+        createResponderForYearsConsumed();
+    };
+
+    root.SurveyView = SurveyView;
+})(window, jQuery);
+
+
+
 
